@@ -8,4 +8,9 @@ let arreglo = [num1, num2, num3]
 
 arreglo = arreglo.sort()
 
-alert("Los valores en orden son: " + arreglo)
+if(num1 == num2 && num2 == num3){
+    alert("Los numeros con iguales: " + num1 )
+}else{
+    alert("Los valores en orden mayor a menor son: " + arreglo)
+    alert("Los valores en orden menor a mayor son: " + arreglo.reverse())
+}
